@@ -7,6 +7,7 @@ interface InputTextProps {
     placeholderText: string;
     label?: string;
     name?: string;
+    errorMessage?: string;
 }
 
 export default function InputText(props: InputTextProps) {
@@ -24,6 +25,11 @@ export default function InputText(props: InputTextProps) {
         placeholderTextColor="#999"
         onChangeText={(text: string) => props?.handleChange(props?.name, text)}
     />
+    <Text
+      style={[{ fontFamily: 'Poppins_400Regular', color: '#C5172E', marginTop: 8 }]}
+    >
+        {props?.errorMessage}
+    </Text>
     </View>
   );
 }

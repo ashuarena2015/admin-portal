@@ -4,20 +4,15 @@ import { View, StyleSheet } from 'react-native';
 const MainLayout = ({ children }: { children: ReactNode }) => {
     return (
         <View style={styles.sectionContainer}>
-            <View style={{ position: 'relative', zIndex: 2 }}>
-                {children}
-            </View>
-            {/* <View style={styles.tiltedBackground} /> */}
+            {children}
         </View>
     )
 }
 
 const styles = StyleSheet.create({
     sectionContainer: {
-        flexGrow: 1,
-        backgroundColor: '#3D365C',
         flex: 1,
-        height: '100%',
+        backgroundColor: '#3D365C',
         color: '#fff'
     },
     // tiltedBackground: {

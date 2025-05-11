@@ -11,7 +11,10 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ashuarena.adminportal"
+      "bundleIdentifier": "com.ashuarena.adminportal",
+      "infoPlist": {
+        "NSFaceIDUsageDescription": "We use Face ID to securely authenticate you."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -27,7 +30,7 @@
       "favicon": "./assets/images/favicon.png"
     },
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/images/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff",
       "duration": 0

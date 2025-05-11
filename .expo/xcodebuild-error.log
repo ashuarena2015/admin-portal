@@ -1,0 +1,7 @@
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/ashutoshkumar/Library/Developer/Xcode/DerivedData/adminportal-chjnzutfgmgcgdeecpjghjxmktet/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Yoga.build/Objects-normal/x86_64/YGValue.o /Applications/projects/admin-portal/node_modules/react-native/ReactCommon/yoga/yoga/YGValue.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'Yoga' from project 'Pods')
+	Building workspace adminportal with scheme adminportal and configuration Debug
+(2 failures)

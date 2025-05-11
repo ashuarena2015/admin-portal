@@ -3,14 +3,18 @@ import { StyleSheet, View, Image } from 'react-native';
 import { useRoute } from '@react-navigation/native';
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from '../../services/store'
-// import { API_URL, PHOTO_URL } from "@env";
+import { API_URL, PHOTO_URL } from "@env";
 import AppText from '../Forms/AppText';
 import SimpleTextSkeleton from '../Skeleton/text-simple';
 
-const API_URL = 'https://my-school-app-backend.onrender.com/api';
-const PHOTO_URL = 'https://my-school-app-backend.onrender.com/uploads';
+// const API_URL = 'https://my-school-app-backend.onrender.com/api';
+// const PHOTO_URL = 'https://my-school-app-backend.onrender.com/uploads';
 
-const Profile: FC = () => {
+interface ProfileProps {
+    navigation?: any
+}
+
+const Profile: FC<ProfileProps> = ({ navigation }) => {
 
     const route = useRoute();
     const { account } = useSelector((state: RootState) => state.accounts);
@@ -44,49 +48,25 @@ const Profile: FC = () => {
 
     return (
         <View style={styles.container}>
-            <View style={styles.profile_wrapper}>
-                <Image
-                    source={{ uri: `${PHOTO_URL}/default-avatar.png` }}
-                    width={100}
-                    height={100}
-                    style={{ ...styles.profile_image }}
-                    resizeMode="cover"
-                    alt={''}
-                />
-                <AppText>Profile page</AppText>
-            </View>
+            <AppText>Profile page</AppText>
         </View>
     );
 }
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#A4B465',
-        padding: 20,
-        flex: 1
-    },
-    profile_wrapper: {
-        display: 'flex',
-        justifyContent: 'flex-start',
-        alignItems: 'flex-start',
-        // position: 'relative',
-        margin: 'auto',
-        width: '80%',
-        padding: 20,
-        borderRadius: 16,
-        height: '80%',
-        backgroundColor: '#FFF',
-        // zIndex: 0
-    },
-    profile_image: {
+        flex: 1,
+        margin: 32,
         backgroundColor: '#fff',
-        width: 120,
-        height: 120,
-        borderRadius: 70,
-        borderWidth: 5,
-        borderColor: '#fff',
-        marginTop: -50,
-        marginLeft: 100,
+        borderRadius: 12,
+        shadowColor: '#999',
+        shadowOffset: { width: 0, height: 0 },
+        shadowOpacity: 0.25,
+        shadowRadius: 12,
+        paddingTop: 32,
+        paddingLeft: 24,
+        paddingRight: 24,
+        paddingBottom: 32,
     },
 });
 

@@ -63,7 +63,7 @@ const RootLayout = () => {
           />
           <Stack.Screen
             name="Profile"
-            component={Profile}
+            component={({ navigation }: NativeStackScreenProps<any, 'Profile'>) => <MainLayout><Profile navigation={navigation} /></MainLayout>}
           />
         </Stack.Navigator>
       </KeyboardAvoidingView>

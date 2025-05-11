@@ -8,28 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		1720379FAA74BB8E4516DE7B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B85A8D718B09ED262C786A3A /* PrivacyInfo.xcprivacy */; };
+		1635E55A1529AA641752167D /* libPods-adminportal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05BDD2F5325EBCA847E06791 /* libPods-adminportal.a */; };
+		2F3BB66E0B0A672D0245C490 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1655BDBE0192A368E8EAA4D8 /* ExpoModulesProvider.swift */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		7A49362FFA720DAE216A6833 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D440EE4F201C0856EA6F1DE0 /* ExpoModulesProvider.swift */; };
-		823C70E608CC98E8C9613023 /* libPods-adminportal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEE8948081A217731450C89 /* libPods-adminportal.a */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
+		FC036783C4EFA34651B54424 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6A0785181B67C74B151AD90C /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05BDD2F5325EBCA847E06791 /* libPods-adminportal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-adminportal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* adminportal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adminportal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = adminportal/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = adminportal/Info.plist; sourceTree = "<group>"; };
-		6BEE8948081A217731450C89 /* libPods-adminportal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-adminportal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8605B055A5B55A37F4058A4C /* Pods-adminportal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adminportal.release.xcconfig"; path = "Target Support Files/Pods-adminportal/Pods-adminportal.release.xcconfig"; sourceTree = "<group>"; };
+		1655BDBE0192A368E8EAA4D8 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-adminportal/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		25F411E4B2F1D1D59DF5EA67 /* Pods-adminportal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adminportal.debug.xcconfig"; path = "Target Support Files/Pods-adminportal/Pods-adminportal.debug.xcconfig"; sourceTree = "<group>"; };
+		6A0785181B67C74B151AD90C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = adminportal/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = adminportal/SplashScreen.storyboard; sourceTree = "<group>"; };
-		B85A8D718B09ED262C786A3A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = adminportal/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B1D5B5AA712FBEE3AFF3C042 /* Pods-adminportal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adminportal.release.xcconfig"; path = "Target Support Files/Pods-adminportal/Pods-adminportal.release.xcconfig"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		D440EE4F201C0856EA6F1DE0 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-adminportal/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = adminportal/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* adminportal-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "adminportal-Bridging-Header.h"; path = "adminportal/adminportal-Bridging-Header.h"; sourceTree = "<group>"; };
-		FB3B9544E4B55ACE32160026 /* Pods-adminportal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-adminportal.debug.xcconfig"; path = "Target Support Files/Pods-adminportal/Pods-adminportal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				823C70E608CC98E8C9613023 /* libPods-adminportal.a in Frameworks */,
+				1635E55A1529AA641752167D /* libPods-adminportal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,35 +53,35 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				B85A8D718B09ED262C786A3A /* PrivacyInfo.xcprivacy */,
+				6A0785181B67C74B151AD90C /* PrivacyInfo.xcprivacy */,
 			);
 			name = adminportal;
+			sourceTree = "<group>";
+		};
+		1AB4C1CC6374A32FBC711BDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25F411E4B2F1D1D59DF5EA67 /* Pods-adminportal.debug.xcconfig */,
+				B1D5B5AA712FBEE3AFF3C042 /* Pods-adminportal.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6BEE8948081A217731450C89 /* libPods-adminportal.a */,
+				05BDD2F5325EBCA847E06791 /* libPods-adminportal.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7CDD327003A55C978C3C6590 /* Pods */ = {
+		66CD7B31F09810313FAD30AE /* adminportal */ = {
 			isa = PBXGroup;
 			children = (
-				FB3B9544E4B55ACE32160026 /* Pods-adminportal.debug.xcconfig */,
-				8605B055A5B55A37F4058A4C /* Pods-adminportal.release.xcconfig */,
+				1655BDBE0192A368E8EAA4D8 /* ExpoModulesProvider.swift */,
 			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		80099DD10319B970D862FB87 /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				BBA985F4260C8A666B5FE4A9 /* adminportal */,
-			);
-			name = ExpoModulesProviders;
+			name = adminportal;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -98,8 +98,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				7CDD327003A55C978C3C6590 /* Pods */,
-				80099DD10319B970D862FB87 /* ExpoModulesProviders */,
+				1AB4C1CC6374A32FBC711BDC /* Pods */,
+				E5A692D12947A679113C0D0C /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,12 +123,12 @@
 			path = adminportal/Supporting;
 			sourceTree = "<group>";
 		};
-		BBA985F4260C8A666B5FE4A9 /* adminportal */ = {
+		E5A692D12947A679113C0D0C /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				D440EE4F201C0856EA6F1DE0 /* ExpoModulesProvider.swift */,
+				66CD7B31F09810313FAD30AE /* adminportal */,
 			);
-			name = adminportal;
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,13 +139,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "adminportal" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				35F7D20E1E6692C94BFF87F9 /* [Expo] Configure project */,
+				AB891E5F177DC3A0A6282DE7 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				6CDDB7955C46821ED7F21A75 /* [CP] Embed Pods Frameworks */,
+				589AAB123B7857F1084487BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,7 +162,8 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1250;
@@ -195,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				1720379FAA74BB8E4516DE7B /* PrivacyInfo.xcprivacy in Resources */,
+				FC036783C4EFA34651B54424 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,26 +240,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		35F7D20E1E6692C94BFF87F9 /* [Expo] Configure project */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "[Expo] Configure project";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-adminportal/expo-configure-project.sh\"\n";
-		};
-		6CDDB7955C46821ED7F21A75 /* [CP] Embed Pods Frameworks */ = {
+		589AAB123B7857F1084487BD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -354,6 +336,25 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-adminportal/Pods-adminportal-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AB891E5F177DC3A0A6282DE7 /* [Expo] Configure project */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Expo] Configure project";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-adminportal/expo-configure-project.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -362,7 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				7A49362FFA720DAE216A6833 /* ExpoModulesProvider.swift in Sources */,
+				2F3BB66E0B0A672D0245C490 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,10 +372,11 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB3B9544E4B55ACE32160026 /* Pods-adminportal.debug.xcconfig */;
+			baseConfigurationReference = 25F411E4B2F1D1D59DF5EA67 /* Pods-adminportal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = adminportal/adminportal.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8XS8P6GN5F;
 				ENABLE_BITCODE = NO;
@@ -395,21 +397,23 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.adminportal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashuarena.adminportal;
 				PRODUCT_NAME = adminportal;
 				SWIFT_OBJC_BRIDGING_HEADER = "adminportal/adminportal-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8605B055A5B55A37F4058A4C /* Pods-adminportal.release.xcconfig */;
+			baseConfigurationReference = B1D5B5AA712FBEE3AFF3C042 /* Pods-adminportal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = adminportal/adminportal.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8XS8P6GN5F;
 				INFOPLIST_FILE = adminportal/Info.plist;
@@ -425,10 +429,11 @@
 					"-lc++",
 				);
 				OTHER_SWIFT_FLAGS = "$(inherited) -D EXPO_CONFIGURATION_RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = org.name.adminportal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashuarena.adminportal;
 				PRODUCT_NAME = adminportal;
 				SWIFT_OBJC_BRIDGING_HEADER = "adminportal/adminportal-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -456,6 +461,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -465,6 +471,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -519,6 +526,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -528,6 +536,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -546,6 +555,7 @@
 				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
